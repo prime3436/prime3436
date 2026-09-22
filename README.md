@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
   <img src="assets/venom_header.svg" width="100%" alt="Mohan Sai — AI Engineer · Flutter · Research"/>
 </div>
 
@@ -10,19 +10,18 @@
 
 ---
 
-<img align="right" width="360" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif"/>
+<img align="right" width="340" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif"/>
 
-### About Me
+### Who I Am
 
-I'm an AI & Data Science engineer from Chennai, India — focused on building systems that are actually useful. My work spans computer vision, NLP, LLMs, and full-stack mobile apps.
-
-I don't just build demos — I build things that work, perform, and ship.
+AI & Data Science engineer out of Chennai, India.
+I build things that actually work — computer vision systems, NLP pipelines, LLM apps, and full-stack mobile apps that ship.
 
 ```python
 profile = {
     "name"     : "Patibandla Mohan Sai",
-    "location" : "Chennai, India 🇮🇳",
-    "degree"   : "B.Tech AI & Data Science",
+    "location" : "Chennai, India",
+    "degree"   : "B.Tech AI & Data Science — 8.14 CGPA",
     "current"  : ["Flutter", "Spring Boot", "LLMs", "Cloud Native"],
     "focus"    : "AI systems that are fast, useful, and offline-first",
 }
@@ -32,33 +31,51 @@ profile = {
 
 ---
 
-### Tech Stack
+### Skills
 
 <div align="center">
 
 **Languages**
 
-![Python](https://img.shields.io/badge/Python-0d0d1a?style=flat-square&logo=python&logoColor=a78bfa)
-![Java](https://img.shields.io/badge/Java-0d0d1a?style=flat-square&logo=openjdk&logoColor=a78bfa)
-![Dart](https://img.shields.io/badge/Dart-0d0d1a?style=flat-square&logo=dart&logoColor=a78bfa)
-![SQL](https://img.shields.io/badge/SQL-0d0d1a?style=flat-square&logo=postgresql&logoColor=a78bfa)
-![HTML5](https://img.shields.io/badge/HTML5-0d0d1a?style=flat-square&logo=html5&logoColor=a78bfa)
+![Python](https://img.shields.io/badge/Python-0d0d1a?style=for-the-badge&logo=python&logoColor=a78bfa)
+![Java](https://img.shields.io/badge/Java-0d0d1a?style=for-the-badge&logo=openjdk&logoColor=a78bfa)
+![Dart](https://img.shields.io/badge/Dart-0d0d1a?style=for-the-badge&logo=dart&logoColor=a78bfa)
+![SQL](https://img.shields.io/badge/SQL-0d0d1a?style=for-the-badge&logo=postgresql&logoColor=a78bfa)
+![HTML5](https://img.shields.io/badge/HTML5-0d0d1a?style=for-the-badge&logo=html5&logoColor=a78bfa)
+![CSS3](https://img.shields.io/badge/CSS3-0d0d1a?style=for-the-badge&logo=css3&logoColor=a78bfa)
 
-**AI / ML**
+**AI · ML · Deep Learning**
 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-0d0d1a?style=flat-square&logo=tensorflow&logoColor=a78bfa)
-![PyTorch](https://img.shields.io/badge/PyTorch-0d0d1a?style=flat-square&logo=pytorch&logoColor=a78bfa)
-![OpenCV](https://img.shields.io/badge/OpenCV-0d0d1a?style=flat-square&logo=opencv&logoColor=a78bfa)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-0d0d1a?style=flat-square&logo=scikitlearn&logoColor=a78bfa)
-![LangChain](https://img.shields.io/badge/LangChain-0d0d1a?style=flat-square&logo=chainlink&logoColor=a78bfa)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-0d0d1a?style=for-the-badge&logo=tensorflow&logoColor=a78bfa)
+![PyTorch](https://img.shields.io/badge/PyTorch-0d0d1a?style=for-the-badge&logo=pytorch&logoColor=a78bfa)
+![Keras](https://img.shields.io/badge/Keras-0d0d1a?style=for-the-badge&logo=keras&logoColor=a78bfa)
+![OpenCV](https://img.shields.io/badge/OpenCV-0d0d1a?style=for-the-badge&logo=opencv&logoColor=a78bfa)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-0d0d1a?style=for-the-badge&logo=scikitlearn&logoColor=a78bfa)
+![Hugging Face](https://img.shields.io/badge/HuggingFace-0d0d1a?style=for-the-badge&logo=huggingface&logoColor=a78bfa)
+![LangChain](https://img.shields.io/badge/LangChain-0d0d1a?style=for-the-badge&logo=chainlink&logoColor=a78bfa)
+![NLTK](https://img.shields.io/badge/NLTK-0d0d1a?style=for-the-badge&logo=python&logoColor=a78bfa)
+![NumPy](https://img.shields.io/badge/NumPy-0d0d1a?style=for-the-badge&logo=numpy&logoColor=a78bfa)
+![Pandas](https://img.shields.io/badge/Pandas-0d0d1a?style=for-the-badge&logo=pandas&logoColor=a78bfa)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-0d0d1a?style=for-the-badge&logo=python&logoColor=a78bfa)
 
-**Frameworks & Tools**
+**Frameworks & Mobile**
 
-![Flutter](https://img.shields.io/badge/Flutter-0d0d1a?style=flat-square&logo=flutter&logoColor=a78bfa)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-0d0d1a?style=flat-square&logo=springboot&logoColor=a78bfa)
-![Docker](https://img.shields.io/badge/Docker-0d0d1a?style=flat-square&logo=docker&logoColor=a78bfa)
-![Git](https://img.shields.io/badge/Git-0d0d1a?style=flat-square&logo=git&logoColor=a78bfa)
-![SQLite](https://img.shields.io/badge/SQLite-0d0d1a?style=flat-square&logo=sqlite&logoColor=a78bfa)
+![Flutter](https://img.shields.io/badge/Flutter-0d0d1a?style=for-the-badge&logo=flutter&logoColor=a78bfa)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-0d0d1a?style=for-the-badge&logo=springboot&logoColor=a78bfa)
+![FastAPI](https://img.shields.io/badge/FastAPI-0d0d1a?style=for-the-badge&logo=fastapi&logoColor=a78bfa)
+![Flask](https://img.shields.io/badge/Flask-0d0d1a?style=for-the-badge&logo=flask&logoColor=a78bfa)
+![Firebase](https://img.shields.io/badge/Firebase-0d0d1a?style=for-the-badge&logo=firebase&logoColor=a78bfa)
+
+**Tools & Cloud**
+
+![Git](https://img.shields.io/badge/Git-0d0d1a?style=for-the-badge&logo=git&logoColor=a78bfa)
+![Docker](https://img.shields.io/badge/Docker-0d0d1a?style=for-the-badge&logo=docker&logoColor=a78bfa)
+![SQLite](https://img.shields.io/badge/SQLite-0d0d1a?style=for-the-badge&logo=sqlite&logoColor=a78bfa)
+![MySQL](https://img.shields.io/badge/MySQL-0d0d1a?style=for-the-badge&logo=mysql&logoColor=a78bfa)
+![Postman](https://img.shields.io/badge/Postman-0d0d1a?style=for-the-badge&logo=postman&logoColor=a78bfa)
+![VS Code](https://img.shields.io/badge/VS_Code-0d0d1a?style=for-the-badge&logo=visualstudiocode&logoColor=a78bfa)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-0d0d1a?style=for-the-badge&logo=googlecloud&logoColor=a78bfa)
+![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-0d0d1a?style=for-the-badge&logo=oracle&logoColor=a78bfa)
 
 </div>
 
@@ -68,11 +85,11 @@ profile = {
 
 | Project | What it does | Stack |
 |---------|-------------|-------|
-| **🧠 Mental Health Detection** | Detects mental health signals from social media posts — >80% accuracy, >90% precision/recall. Published in TIJER, presented at international conference. | NLP · Sentiment Analysis · Text Classification |
-| **👁️ FindX** | Language-driven video scene search. 40%+ recall improvement over baseline, 70% reduction in manual review time. | Computer Vision · PyTorch · Deep Learning |
-| **🤟 SIGN-LESS** | AI communication tool for non-verbal individuals — no sign language required. | Speech Recognition · Sentiment Analysis · TTS |
-| **📚 Lecture Summarizer** | Extracts keyframes from lecture videos and generates structured summaries using RAG + LLMs. | Clustering · LLMs · RAG · Generative AI |
-| **🥗 YoTrackez** | Offline nutrition tracker — scan food with your camera, get macros instantly. Runs fully on-device. | Flutter · MobileNet V2 · SQLite |
+| **Mental Health Detection** | NLP model detecting mental health signals from social media — >80% accuracy, >90% precision/recall. Published in TIJER, presented at international conference. | NLP · Sentiment Analysis · Text Classification |
+| **FindX** | Language-driven video scene search engine. 40%+ recall improvement, 70% less manual review time. | Computer Vision · PyTorch · Deep Learning |
+| **SIGN-LESS** | AI communication bridge for non-verbal individuals — no sign language needed. | Speech Recognition · TTS · Sentiment Analysis |
+| **Lecture Summarizer** | Extracts keyframes from lecture videos, generates structured summaries via RAG + LLMs. | Clustering · LLMs · RAG · Generative AI |
+| **YoTrackez** | Offline nutrition tracker — scan food, get macros instantly. Fully on-device. | Flutter · MobileNet V2 · SQLite |
 
 ---
 
@@ -82,34 +99,11 @@ profile = {
 
 | | |
 |---|---|
-| 📰 **Published Researcher** | TIJER — The International Journal of Engineering Research |
-| 🎤 **International Speaker** | 8th International Conference on Intelligent Computing |
-| 🏅 **Oracle Certified** | OCI Generative AI Professional 2024 |
-| 📚 **Multi-Certified** | TCS ION · NASSCOM Data Science · Google AI Essentials |
-| 📊 **8.14 CGPA** | B.Tech AI & Data Science — Panimalar Engineering College |
-
-</div>
-
----
-
-### GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=prime3436&show_icons=true&hide_border=true&bg_color=0d0d1a&title_color=a78bfa&icon_color=a78bfa&text_color=c9d1d9&border_radius=12&include_all_commits=true&count_private=true" height="165" alt="stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prime3436&layout=compact&hide_border=true&bg_color=0d0d1a&title_color=a78bfa&text_color=c9d1d9&border_radius=12&langs_count=6" height="165" alt="langs"/>
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com?user=prime3436&hide_border=true&background=0D0D1A&ring=A78BFA&fire=A78BFA&currStreakLabel=A78BFA&sideLabels=6B7280&dates=6B7280&currStreakNum=FFFFFF&sideNums=FFFFFF&stroke=0D0D1A&border_radius=12" height="165" alt="streak"/>
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=prime3436&bg_color=0d0d1a&color=a78bfa&line=a78bfa&point=ffffff&area=true&area_color=a78bfa&hide_border=true&border_radius=12" width="100%" alt="activity"/>
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=prime3436&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=4" width="100%" alt="trophies"/>
+| **Published Researcher** | TIJER — The International Journal of Engineering Research |
+| **International Speaker** | 8th International Conference on Intelligent Computing |
+| **Oracle Certified** | OCI Generative AI Professional 2024 |
+| **Multi-Certified** | TCS ION · NASSCOM Data Science · Google AI Essentials |
+| **8.14 CGPA** | B.Tech AI & Data Science — Panimalar Engineering College |
 
 </div>
 
