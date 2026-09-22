@@ -1,4 +1,6 @@
-[![header](https://capsule-render.vercel.app/api?type=venom&color=0:0f0c29,50:302b63,100:24243e&height=240&section=header&text=Patibandla%20Mohan%20Sai&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=AI%20Engineer%20%E2%80%A2%20Flutter%20Developer%20%E2%80%A2%20Researcher&descSize=17&descAlignY=65&descColor=a78bfa)](https://github.com/prime3436)
+<div align="center">
+  <img src="assets/venom_header.svg" width="100%" alt="Mohan Sai — AI Engineer · Flutter · Research"/>
+</div>
 
 <div align="center">
 

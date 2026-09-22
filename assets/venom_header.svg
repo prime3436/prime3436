@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300">
+  <defs>
+
+    <!-- Background gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0a0812"/>
+      <stop offset="45%"  stop-color="#130d28"/>
+      <stop offset="100%" stop-color="#0a0812"/>
+    </linearGradient>
+
+    <!-- Orb gradients -->
+    <radialGradient id="orb1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#6d28d9" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#6d28d9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#a78bfa" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#4c1d95" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#4c1d95" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb4" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#7c3aed" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Text glow filter -->
+    <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Soft blur for orbs -->
+    <filter id="softBlur">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+
+    <!-- Sharp glow for particles -->
+    <filter id="sparkle">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+  <!-- ── BACKGROUND ── -->
+  <rect width="900" height="300" fill="url(#bg)"/>
+
+  <!-- Subtle grid -->
+  <line x1="0"   y1="75"  x2="900" y2="75"  stroke="#a78bfa" stroke-opacity="0.04" stroke-width="1"/>
+  <line x1="0"   y1="150" x2="900" y2="150" stroke="#a78bfa" stroke-opacity="0.04" stroke-width="1"/>
+  <line x1="0"   y1="225" x2="900" y2="225" stroke="#a78bfa" stroke-opacity="0.04" stroke-width="1"/>
+  <line x1="225" y1="0"   x2="225" y2="300" stroke="#a78bfa" stroke-opacity="0.04" stroke-width="1"/>
+  <line x1="450" y1="0"   x2="450" y2="300" stroke="#a78bfa" stroke-opacity="0.04" stroke-width="1"/>
+  <line x1="675" y1="0"   x2="675" y2="300" stroke="#a78bfa" stroke-opacity="0.04" stroke-width="1"/>
+
+  <!-- ── FLOWING ORBS ── -->
+
+  <!-- Orb 1 — left drifting -->
+  <ellipse cx="160" cy="150" rx="190" ry="130" fill="url(#orb1)" filter="url(#softBlur)">
+    <animateTransform attributeName="transform" type="translate"
+      values="0,0; 55,25; -25,-35; 15,20; 0,0"
+      keyTimes="0;0.25;0.5;0.75;1"
+      dur="14s" repeatCount="indefinite" calcMode="spline"
+      keySplines="0.4,0,0.6,1; 0.4,0,0.6,1; 0.4,0,0.6,1; 0.4,0,0.6,1"/>
+    <animate attributeName="rx" values="190;240;165;210;190" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.85;1;0.7;0.9;0.85" dur="14s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Orb 2 — right drifting -->
+  <ellipse cx="740" cy="150" rx="210" ry="140" fill="url(#orb2)" filter="url(#softBlur)">
+    <animateTransform attributeName="transform" type="translate"
+      values="0,0; -60,-25; 35,30; -20,-15; 0,0"
+      keyTimes="0;0.25;0.5;0.75;1"
+      dur="17s" repeatCount="indefinite" calcMode="spline"
+      keySplines="0.4,0,0.6,1; 0.4,0,0.6,1; 0.4,0,0.6,1; 0.4,0,0.6,1"/>
+    <animate attributeName="rx" values="210;175;240;195;210" dur="17s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.65;0.85;0.5;0.75;0.65" dur="17s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Orb 3 — top centre -->
+  <ellipse cx="450" cy="55" rx="160" ry="90" fill="url(#orb3)" filter="url(#softBlur)">
+    <animateTransform attributeName="transform" type="translate"
+      values="0,0; 25,35; -35,12; 18,-25; 0,0"
+      keyTimes="0;0.25;0.5;0.75;1"
+      dur="11s" repeatCount="indefinite" calcMode="spline"
+      keySplines="0.4,0,0.6,1; 0.4,0,0.6,1; 0.4,0,0.6,1; 0.4,0,0.6,1"/>
+    <animate attributeName="ry" values="90;115;75;100;90" dur="11s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Orb 4 — bottom centre slow pulse -->
+  <ellipse cx="450" cy="270" rx="300" ry="60" fill="url(#orb4)" filter="url(#softBlur)">
+    <animate attributeName="ry" values="60;80;55;70;60" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.9;0.5;0.8;0.6" dur="9s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- ── VENOM WAVE (flowing liquid bottom) ── -->
+
+  <path fill="#6d28d9" fill-opacity="0.18"
+    d="M0,245 C120,215 270,265 450,238 C630,211 780,265 900,240 L900,300 L0,300 Z">
+    <animate attributeName="d"
+      values="M0,245 C120,215 270,265 450,238 C630,211 780,265 900,240 L900,300 L0,300 Z;
+              M0,235 C120,262 270,218 450,250 C630,268 780,220 900,248 L900,300 L0,300 Z;
+              M0,250 C120,228 270,272 450,232 C630,205 780,268 900,235 L900,300 L0,300 Z;
+              M0,245 C120,215 270,265 450,238 C630,211 780,265 900,240 L900,300 L0,300 Z"
+      dur="7s" repeatCount="indefinite" calcMode="spline"
+      keySplines="0.4,0,0.6,1; 0.4,0,0.6,1; 0.4,0,0.6,1"/>
+  </path>
+
+  <path fill="#a78bfa" fill-opacity="0.12"
+    d="M0,260 C80,240 200,272 360,252 C520,232 680,270 820,248 C860,242 885,250 900,252 L900,300 L0,300 Z">
+    <animate attributeName="d"
+      values="M0,260 C80,240 200,272 360,252 C520,232 680,270 820,248 C860,242 885,250 900,252 L900,300 L0,300 Z;
+              M0,252 C80,268 200,244 360,265 C520,275 680,248 820,262 C860,268 885,258 900,260 L900,300 L0,300 Z;
+              M0,265 C80,248 200,278 360,258 C520,238 680,275 820,253 C860,246 885,255 900,256 L900,300 L0,300 Z;
+              M0,260 C80,240 200,272 360,252 C520,232 680,270 820,248 C860,242 885,250 900,252 L900,300 L0,300 Z"
+      dur="10s" repeatCount="indefinite" calcMode="spline"
+      keySplines="0.4,0,0.6,1; 0.4,0,0.6,1; 0.4,0,0.6,1"/>
+  </path>
+
+  <!-- ── PARTICLES ── -->
+
+  <circle cx="85"  cy="42"  r="2"   fill="#c4b5fd" filter="url(#sparkle)">
+    <animate attributeName="opacity" values="0.7;0.1;0.9;0.3;0.7" dur="4.2s"  repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0; 3,-4; -2,3; 0,0" dur="4.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="310" cy="28"  r="1.5" fill="#a78bfa" filter="url(#sparkle)">
+    <animate attributeName="opacity" values="0.4;0.9;0.2;0.8;0.4" dur="5.1s"  repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0; -3,4; 2,-3; 0,0" dur="5.1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="510" cy="250" r="2"   fill="#7c3aed" filter="url(#sparkle)">
+    <animate attributeName="opacity" values="0.5;0.1;0.8;0.3;0.5" dur="6.3s"  repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0; 4,3; -3,-4; 0,0" dur="6.3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="710" cy="38"  r="1.5" fill="#c4b5fd" filter="url(#sparkle)">
+    <animate attributeName="opacity" values="0.8;0.2;1;0.4;0.8"   dur="3.7s"  repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0; -2,-5; 3,2; 0,0" dur="3.7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="830" cy="205" r="2"   fill="#7c3aed" filter="url(#sparkle)">
+    <animate attributeName="opacity" values="0.4;0.8;0.2;0.7;0.4" dur="7.2s"  repeatCount="indefinite"/>
+  </circle>
+  <circle cx="75"  cy="225" r="1.5" fill="#a78bfa" filter="url(#sparkle)">
+    <animate attributeName="opacity" values="0.5;0.9;0.3;0.7;0.5" dur="4.8s"  repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0; 2,4; -3,-2; 0,0" dur="4.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="405" cy="18"  r="1"   fill="#ddd6fe" filter="url(#sparkle)">
+    <animate attributeName="opacity" values="0.6;0.1;0.9;0.2;0.6" dur="3.2s"  repeatCount="indefinite"/>
+  </circle>
+  <circle cx="620" cy="265" r="1.5" fill="#a78bfa" filter="url(#sparkle)">
+    <animate attributeName="opacity" values="0.3;0.7;0.1;0.6;0.3" dur="8.5s"  repeatCount="indefinite"/>
+  </circle>
+  <circle cx="205" cy="185" r="1"   fill="#7c3aed" filter="url(#sparkle)">
+    <animate attributeName="opacity" values="0.5;0.9;0.2;0.7;0.5" dur="5.6s"  repeatCount="indefinite"/>
+  </circle>
+  <circle cx="770" cy="255" r="2"   fill="#c4b5fd" filter="url(#sparkle)">
+    <animate attributeName="opacity" values="0.4;0.8;0.1;0.6;0.4" dur="6.8s"  repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0; -4,3; 2,-4; 0,0" dur="6.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="160" cy="75"  r="1.5" fill="#a78bfa" filter="url(#sparkle)">
+    <animate attributeName="opacity" values="0.6;0.2;0.8;0.3;0.6" dur="4s"    repeatCount="indefinite"/>
+  </circle>
+  <circle cx="555" cy="35"  r="1"   fill="#ddd6fe" filter="url(#sparkle)">
+    <animate attributeName="opacity" values="0.7;0.1;0.9;0.4;0.7" dur="3.5s"  repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ── TITLE TEXT ── -->
+
+  <!-- Glow layer -->
+  <text x="450" y="128" font-family="'Courier New', Courier, monospace"
+    font-size="52" font-weight="700" fill="#7c3aed" text-anchor="middle"
+    filter="url(#textGlow)" opacity="0.6" letter-spacing="5">MOHAN SAI</text>
+
+  <!-- Main text -->
+  <text x="450" y="128" font-family="'Courier New', Courier, monospace"
+    font-size="52" font-weight="700" fill="white" text-anchor="middle"
+    letter-spacing="5">MOHAN SAI</text>
+
+  <!-- Subtitle with pulse -->
+  <text x="450" y="162" font-family="'Courier New', Courier, monospace"
+    font-size="13" font-weight="400" fill="#a78bfa" text-anchor="middle"
+    letter-spacing="7">
+    AI ENGINEER · FLUTTER · RESEARCH
+    <animate attributeName="opacity" values="0.9;0.55;0.9" dur="3.5s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Animated underline -->
+  <line x1="310" y1="174" x2="590" y2="174" stroke="#a78bfa" stroke-width="1">
+    <animate attributeName="stroke-opacity" values="0.35;0.75;0.25;0.6;0.35" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="x1"             values="310;340;295;310"         dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="x2"             values="590;560;605;590"         dur="7s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Corner accents -->
+  <polyline points="20,20 20,8 32,8"   stroke="#6d28d9" stroke-width="1.5" fill="none" stroke-opacity="0.6"/>
+  <polyline points="880,20 880,8 868,8" stroke="#6d28d9" stroke-width="1.5" fill="none" stroke-opacity="0.6"/>
+  <polyline points="20,280 20,292 32,292"   stroke="#6d28d9" stroke-width="1.5" fill="none" stroke-opacity="0.6"/>
+  <polyline points="880,280 880,292 868,292" stroke="#6d28d9" stroke-width="1.5" fill="none" stroke-opacity="0.6"/>
+
+</svg>
