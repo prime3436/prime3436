@@ -96,14 +96,20 @@ profile = {
 
 <div align="center">
 
-[![stats](https://github-readme-stats.vercel.app/api?username=prime3436&show_icons=true&hide_border=true&bg_color=0d0d1a&title_color=a78bfa&icon_color=a78bfa&text_color=c9d1d9&border_radius=12&include_all_commits=true&count_private=true)](https://github.com/prime3436)
-[![langs](https://github-readme-stats.vercel.app/api/top-langs/?username=prime3436&layout=compact&hide_border=true&bg_color=0d0d1a&title_color=a78bfa&text_color=c9d1d9&border_radius=12&langs_count=6)](https://github.com/prime3436)
+<img src="https://github-readme-stats.vercel.app/api?username=prime3436&show_icons=true&hide_border=true&bg_color=0d0d1a&title_color=a78bfa&icon_color=a78bfa&text_color=c9d1d9&border_radius=12&include_all_commits=true&count_private=true" height="165" alt="stats"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prime3436&layout=compact&hide_border=true&bg_color=0d0d1a&title_color=a78bfa&text_color=c9d1d9&border_radius=12&langs_count=6" height="165" alt="langs"/>
 
-[![streak](https://streak-stats.demolab.com?user=prime3436&hide_border=true&background=0D0D1A&ring=A78BFA&fire=A78BFA&currStreakLabel=A78BFA&sideLabels=6B7280&dates=6B7280&currStreakNum=FFFFFF&sideNums=FFFFFF&stroke=0D0D1A&border_radius=12)](https://github.com/prime3436)
+<br/><br/>
 
-[![activity](https://github-readme-activity-graph.vercel.app/graph?username=prime3436&bg_color=0d0d1a&color=a78bfa&line=a78bfa&point=ffffff&area=true&area_color=a78bfa&hide_border=true&border_radius=12)](https://github.com/prime3436)
+<img src="https://streak-stats.demolab.com?user=prime3436&hide_border=true&background=0D0D1A&ring=A78BFA&fire=A78BFA&currStreakLabel=A78BFA&sideLabels=6B7280&dates=6B7280&currStreakNum=FFFFFF&sideNums=FFFFFF&stroke=0D0D1A&border_radius=12" height="165" alt="streak"/>
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=prime3436&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=4)](https://github.com/prime3436)
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=prime3436&bg_color=0d0d1a&color=a78bfa&line=a78bfa&point=ffffff&area=true&area_color=a78bfa&hide_border=true&border_radius=12" width="100%" alt="activity"/>
+
+<br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=prime3436&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=4" width="100%" alt="trophies"/>
 
 </div>
 
@@ -121,4 +127,6 @@ profile = {
 
 </div>
 
-[![footer](https://capsule-render.vercel.app/api?type=venom&color=0:0f0c29,50:302b63,100:24243e&height=120&section=footer&animation=fadeIn)](https://github.com/prime3436)
+<div align="center">
+  <sub>built different · powered by curiosity</sub>
+</div>
